@@ -1,0 +1,19 @@
+<div class="row" id="id-search">
+  <hr/>
+</div>
+
+<div class="form-group has-feedback">
+  <input type="text" class="form-control" placeholder="Search Books" ng-model="myName" />
+  <i class="glyphicon glyphicon-search form-control-feedback"></i>
+</div>
+
+<ul>
+  <li ng-repeat="book in books | filter: myName">{{book.title}}<br /> by {{book.author}} <br /> <img src="{{book.cover}}" alt="image" class="img-book"/>
+  <br />
+  <br />
+  <div class="submit-wrapper">
+     <a href="#!/Book/{{book._id}}"> INFO</a>
+  </div>
+  <br/>
+  </li>
+</ul>

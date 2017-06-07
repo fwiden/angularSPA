@@ -1,0 +1,27 @@
+.jumbotron{
+  font-family: verdana;
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
+
+.img-book{
+  height: 175px;
+  width: 145px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+  margin: 10px;
+  font-style: italic;
+  font-size:12px;
+  background-color: lightgreen;
+}
+
+.has-feedback{
+  margin-top: 25px;
+}
